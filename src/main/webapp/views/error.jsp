@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home</title>
+<title>Error</title>
 </head>
 <body>
-	<p style="color: green;">${homeMsg}</p>
+	<p style="color: red;">${errorMsg}</p>
 </body>
 </html>
