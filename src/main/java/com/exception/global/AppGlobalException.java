@@ -18,4 +18,10 @@ public class AppGlobalException {
 		model.addAttribute("msg","Null pointer exception occured in the application, please try again later...");
 		return "error";
 	}
+	
+	@ExceptionHandler(value = Exception.class)
+	public String handleException(Model model) {
+		model.addAttribute("msg", "oops error occured in the application, please try again later");
+		return "error";
+	}
 }
