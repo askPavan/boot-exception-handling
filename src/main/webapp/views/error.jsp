@@ -7,6 +7,7 @@
 <title>Error</title>
 </head>
 <body>
-	<p style="color: red;">${msg}</p>
+	<p style="color: red;">${msg}</p><br><br><br>
+	<img alt="error-image" src="images/error-image.png">
 </body>
 </html>
