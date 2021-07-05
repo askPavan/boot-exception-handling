@@ -21,7 +21,7 @@ public class AppGlobalException {
 	
 	@ExceptionHandler(value = Exception.class)
 	public String handleException(Model model) {
-		model.addAttribute("msg", "oops error occured in the application, please try again later");
+		model.addAttribute("msg", "Error occured Book rate not found in the application....");
 		return "error";
 	}
 }

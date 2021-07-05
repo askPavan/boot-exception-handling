@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>BookRates</title>
 </head>
 <body>
 	<p style="color: fuchsia;"><b>${bookPrice}</b></p>
